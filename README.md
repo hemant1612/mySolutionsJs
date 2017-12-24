@@ -1,3 +1,4 @@
 # mySolutionsJs
 
-Nothing more than my solutions to problems asked famous js books :)
+My solutions to :
+1> Eloquent Javascript
