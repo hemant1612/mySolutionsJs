@@ -191,6 +191,8 @@ module.exports = {
         "no-unused-expressions": "error",
         "no-use-before-define": "error",
         "no-useless-call": "error",
+        "no-unused-vars" : "off",
+        "no-console": "off",
         "no-useless-computed-key": "error",
         "no-useless-concat": "error",
         "no-useless-constructor": "error",

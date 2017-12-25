@@ -1,5 +1,5 @@
 // 1
-function recursive (num) {
+ function recursive (num) {
   if (num == 0) {
     return 'even';
   }
@@ -13,12 +13,13 @@ function recursive (num) {
 
 // 2
 
-countB = (str, chr = 'B') => {
+ var countB = (str, chr = 'B') => {
    let count = 0;
    const code = chr.charCodeAt(0)
    for (let i = 0; i < str.length; i++) {
      if (str.charCodeAt(i) == code || str.charCodeAt(i) == code) {
-       count++; }
+       count += 1;
+     }
      }
    return count;
 }
